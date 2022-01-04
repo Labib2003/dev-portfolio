@@ -10,16 +10,19 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 50px;
+    text-align: justify;
 }
 .half-width img{
     width: 80%;
-    padding-top: 100px;
 }
-.github{
+.button{
     text-decoration: none;
     background-image: linear-gradient(orangered, rgb(221, 42, 42));
     padding: 10px 50px;
@@ -30,5 +33,9 @@ section{
 .top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
