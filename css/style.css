@@ -4,3 +4,25 @@ body{
 h1{
     font-size: 50px;
 }
+.color{
+    color: orangered;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+    padding-top: 100px;
+}
+.github{
+    text-decoration: none;
+    background-image: linear-gradient(orangered, rgb(221, 42, 42));
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
